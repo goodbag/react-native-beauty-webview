@@ -42,21 +42,21 @@ $ npm install --save react-native-webview
 
 ```
 
-#### Install @react-native-community/clipboard
-More information about installation of clipboard, <a href="https://github.com/react-native-community/clipboard">click here</a>
+#### Install @react-native-clipboard/clipboard
+More information about installation of clipboard, <a href="https://github.com/react-native-clipboard/clipboard">click here</a>
 
 ```sh
-$ yarn add @react-native-community/clipboard
+$ yarn add @react-native-clipboard/clipboard
 
 or
 
-$ npm install --save @react-native-community/clipboard
+$ npm install --save @react-native-clipboard/clipboard
 
 
 ```
 
 #### Link native dependencies for IOS
-Link native dependencies of @react-native-community/clipboard and @react-native-community/react-native-webview. If your react native verison is lower than 0.60.x, you must check the official documentation of these packages to link correctly.
+Link native dependencies of @react-native-clipboard/clipboard and @react-native-community/react-native-webview. If your react native verison is lower than 0.60.x, you must check the official documentation of these packages to link correctly.
 
 ```sh
 
@@ -164,8 +164,8 @@ export default App;
 ## :warning: Dependency
 ### @react-native-community/react-native-webview
 You must install @react-native-community/react-native-webview package correctly before use this package. For more information, please <a href="https://github.com/react-native-community/react-native-webview/blob/master/docs/Getting-Started.md">click here</a>
-### @react-native-community/clipboard
-You must install @react-native-community/clipboard package correctly before use this package. For more information, please <a href="https://github.com/react-native-community/clipboard">click here</a>
+### @react-native-clipboard/clipboard
+You must install @react-native-clipboard/clipboard package correctly before use this package. For more information, please <a href="https://github.com/react-native-clipboard/clipboard">click here</a>
 
 ## :clipboard: References
 #### mxck/react-native-material-menu

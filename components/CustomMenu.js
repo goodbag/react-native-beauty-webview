@@ -4,7 +4,7 @@ import MenuItem from './MenuItem';
 import MenuDivider from './MenuDivider';
 import { StyleSheet, Image, TouchableOpacity, Linking, View } from 'react-native';
 import { images } from '../res';
-import Clipboard from "@react-native-community/clipboard";
+import Clipboard from "@react-native-clipboard/clipboard";
 
 export const CutomMenu = ({contentType, openBrowserTitle, copyLinkTitle, url, extraMenuItems}) => {
     const [menu, setMenu] = useState(null);
